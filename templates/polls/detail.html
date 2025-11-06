@@ -1,0 +1,45 @@
+{% extends "polls/base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card poll-card">
+            <div class="card-header bg-primary text-white">
+                <h3 class="card-title mb-0">Vote on this Question</h3>
+            </div>
+            <div class="card-body">
+                <h4 class="mb-4">{{ question.question_text }}</h4>
+                
+                {% if error_message %}
+                    <div class="alert alert-danger" role="alert">
+                        {{ error_message }}
+                    </div>
+                {% endif %}
+                
+                {% if user.is_authenticated %}
+                    <form action="{% url 'polls:vote' question.id %}" method="post">
+                        {% csrf_token %}
+                        {% for choice in question.choice_set.all %}
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
+                                <label class="form-check-label" for="choice{{ forloop.counter }}">
+                                    {{ choice.choice_text }}
+                                </label>
+                            </div>
+                        {% endfor %}
+                        <div class="mt-4">
+                            <button type="submit" class="btn btn-primary">Vote</button>
+                            <a href="{% url 'polls:index' %}" class="btn btn-outline-secondary ms-2">Back to Polls</a>
+                        </div>
+                    </form>
+                {% else %}
+                    <div class="alert alert-warning" role="alert">
+                        You must be <a href="{% url 'polls:login' %}">logged in</a> to vote on polls.
+                    </div>
+                    <a href="{% url 'polls:index' %}" class="btn btn-outline-secondary">Back to Polls</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
