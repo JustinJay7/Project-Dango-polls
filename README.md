@@ -70,19 +70,19 @@ venv\Scripts\activate   #Windows
 ## Screenshots
 
 ### [Home](screenshots/home.png)
-[![Home Page](screenshots/home.png)](screenshots/home.png)
+[![Home Page](screenshots:home.png)](screenshots:home.png)
 *Landing page showing available polls*
 
 ### [Voting](screenshots/vote.png)  
-[![Voting Page](screenshots/vote.png)](screenshots/vote.png)
+[![Voting Page](screenshots:vote.png)](screenshots:vote.png)
 *Interface for submitting votes on poll questions*
 
 ### [Results](screenshots/results.png)
-[![Results Page](screenshots/results.png)](screenshots/results.png)
+[![Results Page](screenshots:results.png)](screenshots:results.png)
 *Real-time visualization of poll results*
 
 ### [Admin](screenshots/admin.png)
-[![Admin Panel](screenshots/admin.png)](screenshots/admin.png)
+[![Admin Panel](screenshots:admin.png)](screenshots:admin.png)
 *Django admin interface for managing polls*
 ## Features
 
