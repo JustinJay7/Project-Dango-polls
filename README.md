@@ -69,22 +69,21 @@ venv\Scripts\activate   #Windows
 
 ## Screenshots
 
-*Home Page*
-href="file:///Users/mac/Desktop/Screenshot%20%7C%20Home%20Page%20.png"
-Description: Landing page showing available polls
+### [Home](screenshots/home.png)
+[![Home Page](screenshots/home.png)](screenshots/home.png)
+*Landing page showing available polls*
 
-*Voting Interface*
-screenshots/vote.png
-Description: Interface for submitting votes on poll questions
+### [Voting](screenshots/vote.png)  
+[![Voting Page](screenshots/vote.png)](screenshots/vote.png)
+*Interface for submitting votes on poll questions*
 
-*Results Display*
-screenshots/results.png
-Description: Real-time visualization of poll results
+### [Results](screenshots/results.png)
+[![Results Page](screenshots/results.png)](screenshots/results.png)
+*Real-time visualization of poll results*
 
-*Admin Panel*
-screenshots/admin.png
-Description: Django admin interface for managing polls
-
+### [Admin](screenshots/admin.png)
+[![Admin Panel](screenshots/admin.png)](screenshots/admin.png)
+*Django admin interface for managing polls*
 ## Features
 
 · ✅ User authentication system
