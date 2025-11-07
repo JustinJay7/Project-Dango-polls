@@ -24,42 +24,43 @@ A simple polls app created using Django. A full-featured polling application bui
 
 ## Local Setup
 
-1. *Clone the repository*
-1a) git clone https://github.com/JustinJay7/project-Dango-polls.git
+1. **Clone the repository**
+1a) git clone
+https://github.com/JustinJay7/project-Dango-polls.git
 
-2. *Create virtual environment*
+2. **Create virtual environment**
 
 2a) python -m venv venv #Linux/Mac
 2b) source venv/bin/activate 
            # OR
 venv\Scripts\activate   #Windows
   
-3. *Install dependencies*
+3. **Install dependencies**
    
 3a) pip install -r requirements.txt
 
-4. *Database setup*
+4. **Database setup**
    
 4a) python manage.py migrate
    
-5. *Create superuser (optional)*
+5. **Create superuser (optional)**
    
 5a) python manage.py createsuperuser
    
-6. *Run development server*
+6. **Run development server**
    
    python manage.py runserver
    
 
 ## Usage
 
-**Access the Application**
+## **Access the Application**
 
 1. Start the server: python manage.py runserver
 2. Open your browser to: http://localhost:8000
 3. Navigate through the application:
 
-*Key Features in Action*
+**Key Features in Action**
 
 · View Polls: Browse available polls on the home page
 · Vote: Select choices and submit votes
@@ -69,7 +70,7 @@ venv\Scripts\activate   #Windows
 ## Screenshots
 
 *Home Page*
-screenshots/home.png
+href="file:///Users/mac/Desktop/Screenshot%20%7C%20Home%20Page%20.png"
 Description: Landing page showing available polls
 
 *Voting Interface*
