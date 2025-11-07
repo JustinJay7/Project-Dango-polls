@@ -25,13 +25,15 @@ A simple polls app created using Django. A full-featured polling application bui
 ## Local Setup
 
 1. **Clone the repository**
+
 1a) git clone
 https://github.com/JustinJay7/project-Dango-polls.git
 
-2. **Create virtual environment**
+3. **Create virtual environment**
 
-2a) python -m venv venv #Linux/Mac
-2b) source venv/bin/activate 
+2a) python -m venv venv  #Linux/Mac
+
+2b) source venv/bin/activate        
            # OR
 venv\Scripts\activate   #Windows
   
@@ -63,26 +65,29 @@ venv\Scripts\activate   #Windows
 **Key Features in Action**
 
 · View Polls: Browse available polls on the home page
+
 · Vote: Select choices and submit votes
+
 · Results: See real-time voting results
-· Admin Panel: Manage polls at http://localhost:8000/admin
+
+· Admin Panel: Manage polls at -   http://localhost:8000/admin
 
 ## Screenshots
 
 ### [Home](screenshots/home.png)
-[![Home Page](screenshots:home.png)](screenshots:home.png)
+![Home](screenshots/screenshot:home.png)
 *Landing page showing available polls*
 
 ### [Voting](screenshots/vote.png)  
-[![Voting Page](screenshots:vote.png)](screenshots:vote.png)
+![Vote](screenshots/screenshot:vote.png)
 *Interface for submitting votes on poll questions*
 
 ### [Results](screenshots/results.png)
-[![Results Page](screenshots:results.png)](screenshots:results.png)
+![Results](screenshots/screenshot:results.png)
 *Real-time visualization of poll results*
 
 ### [Admin](screenshots/admin.png)
-[![Admin Panel](screenshots:admin.png)](screenshots:admin.png)
+![Admin](screenshots/screenshot:admin.png)
 *Django admin interface for managing polls*
 ## Features
 
@@ -102,11 +107,11 @@ venv\Scripts\activate   #Windows
 
 ## Credits
 
-*Author*
+# *Author*
 
 · Justin Jay - GitHub Profile
 
-*Technologies Used*
+# *Technologies Used*
 
 · Django - Web framework
 · SQLite - Database (development)
